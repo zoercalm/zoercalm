@@ -24,11 +24,21 @@ My background is in web analytics. I work across the full cycle: deciding what t
 
 Case links open my Upwork portfolio.
 
+### Runnable engineering demos
+
+These five repositories use **synthetic data only**. They are focused, reproducible demos and templates, not client source code or production deployments. Each README documents its tested scope and limitations.
+
+1. **[Marketing data reconciliation](https://github.com/zoercalm/marketing-data-reconciliation)** — compare daily totals, distinguish missing rows from numerical differences, and produce actionable reports. CSV inputs only; no live source connections or automatic repairs.
+2. **[Clickstream journeys with PostgreSQL and dbt](https://github.com/zoercalm/clickstream-dbt-postgres)** — cart-entry paths, daily range reloads and validated batch resumption. Synthetic source; raw and reporting are not published atomically.
+3. **[GA4 / GTM event taxonomy](https://github.com/zoercalm/ga4-gtm-event-taxonomy)** — a commerce event contract, payload validator and browser dataLayer demo. No GTM container, GA4 property or live collection is configured.
+4. **[ClickHouse mart publishing](https://github.com/zoercalm/metrika-clickhouse-release-pipeline)** — dbt checks before publication and journaled recovery. The consistency guarantee covers one completed mart, not all raw tables together; rollback remains experimental and is not crash-safe.
+5. **[Synthetic keyword-demand modelling](https://github.com/zoercalm/google-ads-bigquery-dataform-template)** — local ingestion, revision handling and compile-tested BigQuery/Dataform assets. Google Ads API and BigQuery execution are not included; this models search demand, not campaign spend or conversions.
+
 ### Tools
 
 Python · SQL · BigQuery · PostgreSQL · Dataform · dbt · GA4 · Google Tag Manager · Looker Studio
 
-Commercial source repositories remain private. The portfolio cases describe selected work without exposing client code or datasets. Public labs on this profile are learning projects and forks.
+Commercial source repositories remain private. The portfolio cases describe selected work without exposing client code or datasets. The demos above are synthetic examples; other public labs may be learning projects or forks.
 
 [Work with me on Upwork](https://www.upwork.com/freelancers/~014d4b1d7430018c18)
 
